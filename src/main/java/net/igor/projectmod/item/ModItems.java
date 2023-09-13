@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> DRYROOT = ITEMS.register("dryroot",
             () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

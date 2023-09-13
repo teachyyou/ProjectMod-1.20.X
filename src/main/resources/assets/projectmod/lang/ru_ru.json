@@ -1,3 +1,5 @@
 {
-  "item.projectmod.dryroot": "Высушенный корень"
+  "item.projectmod.dryroot": "Высушенный корень",
+  "creativetab.project_tab": "Учебный мод",
+  "block.projectmod.root_block": "Блок сухих корней"
 }

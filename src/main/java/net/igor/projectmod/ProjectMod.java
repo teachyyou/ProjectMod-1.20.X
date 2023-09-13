@@ -1,6 +1,8 @@
 package net.igor.projectmod;
 
 import com.mojang.logging.LogUtils;
+import net.igor.projectmod.block.ModBlocks;
+import net.igor.projectmod.item.ModCreativeModTabs;
 import net.igor.projectmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -25,6 +27,11 @@ public class ProjectMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModCreativeModTabs.register(modEventBus);
+
+
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

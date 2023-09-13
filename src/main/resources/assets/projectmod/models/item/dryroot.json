@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
-  "textured" : {
+  "textures" : {
     "layer0": "projectmod:item/dryroot"
   }
 }
